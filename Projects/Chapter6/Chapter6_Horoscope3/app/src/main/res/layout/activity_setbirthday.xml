@@ -1,0 +1,43 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<TextView  
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="@string/birthday_hint"
+		android:textSize="20sp"
+		/>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/month_hint"
+		android:textSize="20sp"
+		/>
+	<EditText android:id="@+id/etMonth"
+		android:inputType="number"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20sp"
+		/>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/day_hint"
+		android:textSize="20sp"
+		/>
+	<EditText android:id="@+id/etDay"
+		android:inputType="number"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20sp"
+		/>
+	<Button android:id="@+id/submit"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/btn_hint"
+		android:textSize="20sp"
+		/>
+</LinearLayout>

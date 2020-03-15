@@ -1,0 +1,36 @@
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	>
+	<TableRow>
+		<TextView android:text="班表小幫手"/>
+		<TextView android:text="Version 1.6.8"/>
+		<TextView android:text="Android 2.2"/>
+	</TableRow>
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:src="@android:drawable/star_big_on"
+	/>
+	<TableRow>
+		<TextView android:text="我的重要日子"/>
+		<TextView android:text="Version 1.8"/>
+		<TextView android:text="Android 4.0"/>
+	</TableRow>
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:src="@android:drawable/star_big_on"
+		/>
+	<TableRow>
+		<TextView android:text="油耗記錄器"/>
+		<TextView android:text="Version 2.1"/>
+		<TextView android:text="Android 2.3"/>
+	</TableRow>
+</TableLayout>
+

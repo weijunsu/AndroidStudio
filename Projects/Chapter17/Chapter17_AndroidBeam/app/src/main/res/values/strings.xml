@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chapter17_NFC</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_reader">Chapter17_NFC (ReaderActivity)</string>
+</resources>

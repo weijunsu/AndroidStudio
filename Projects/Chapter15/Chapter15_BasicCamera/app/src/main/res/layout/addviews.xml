@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<TextView android:id="@+id/tv_camerastatus"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="30sp"
+		android:text="相機是正的"
+		/>
+	<Button android:id="@+id/btn_tp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="30sp"
+		android:text="拍攝照片"
+		/>
+	<Button android:id="@+id/btn_vp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="30sp"
+		android:text="觀看照片"
+		/>
+	<Button android:id="@+id/btn_sc"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="30sp"
+		android:text="切換相機"
+		/>
+</LinearLayout>

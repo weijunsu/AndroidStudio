@@ -1,0 +1,48 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<SurfaceView 
+		android:id="@+id/sv"
+		android:layout_width="wrap_content"
+		android:layout_height="350dp"
+		/>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		<Button android:id="@+id/btn_start"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+            android:textSize="24sp"
+			android:text="開始"
+			/>
+		<Button android:id="@+id/btn_stop"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+            android:textSize="24sp"
+            android:text="停止"
+			/>
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		<ImageView
+			android:layout_width="80dp"
+			android:layout_height="80dp"
+			android:src="@drawable/nctumark"
+			/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:gravity="center_vertical"
+            android:textSize="24sp"
+			android:text="交通大學浩然圖書館"
+			/>
+	</LinearLayout>
+</LinearLayout>
